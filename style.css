@@ -1,0 +1,25 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+/* grid container with ul/li items, is it just a responsive column? */
+#patient_list {
+  display: grid;
+}
+
+.center {
+  display: grid;
+  place-content: center;
+}
+
+#go {
+  width: 4rem;
+  border: 2px solid blue;
+  border-radius: 17px;
+  background-color: white;
+}
+
+#go:hover {
+  box-shadow: 2px 2px 1px;
+  background-color: rgb(241, 241, 234);
+}
